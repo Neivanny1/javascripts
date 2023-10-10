@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f46060;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.watch{
+    background-color: black;
+    text-align: center;
+    border: 3px solid gold;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    /* transform: translateX(-50%) translateY(-50%); */
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    
+}
+
+#maze-container {
+    border: 10px solid rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid rgb(194, 194, 194); */
+    background-color: white;
+}
+
+.wall {
+    background-color: black;
+    /* border: 1px solid black; */
+}
+
+#rat {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#food {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+select {
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+}
