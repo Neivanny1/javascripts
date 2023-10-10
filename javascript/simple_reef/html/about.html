@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reef Hotel</title>
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="icon" href="../img/logo (1).png">
+    <style>
+      #main {
+        position: relative;
+      }
+      
+      #bg-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1; /* Puts the video behind the content */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Reef</span> Hotel</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="about.html">About</a></li>
+            <li><a href="videos.html">Chefs In Action</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <img src="../img/offers2.jpg" width="100%" alt="">
+    <section id="main">
+      <video autoplay loop muted playsinline id="bg-video">
+        <source src="https://youtu.be/gQz5NUNajow?si=uMzOhj5FYFbsg4E2" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">About Us</h1>
+          <p class="blue">
+            Treat yourself to a magnificent stay at The Reef Hotel. Make memories to last a lifetime in a spectacular setting fronting the famous Nyali beach in Mombasa, North Coast. It has been professionally managed for 40 years by the same family. Take advantage of our resort facilities for beach holidays, restaurants as well as business and meeting facilities. 
+              Located adjacent the best shopping malls, golf courts, restaurants and clubs.
+              Rely upon our helpful staff, dining service and host of activities 
+              for a great holiday experience.
+             
+            </p>
+            <p>listen instead...</p> 
+            <audio controls>
+              <source src="horse.ogg" type="audio/ogg">
+              <source src="../audio/synthesize.mp3" type="audio/mpeg">
+            </audio>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Discover the magic of Kenya at the Reef Hotel Mombasa</h3>
+            <p>"Welcome to Mombasa and to the Reef Hotel, conveniently situated on the white sandy beaches of Nyali overlooking the beautiful Indian Ocean, adjacent to the very best shopping areas, clubs, restaurants and golf courts and only 7 kilometers north of Mombasa city centre. "</p>
+          listen instead...<audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="../audio/synthesize1.mp3" type="audio/mpeg">
+              </audio>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section id="newsletter">
+      <div class="container">
+        <h1 style="color:gray;">Subscribe To Our Website</h1>
+        <form>
+          <input type="email" placeholder="Enter Email..." required>
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>Reef Hotel, Copyright &copy; 2023</p>
+    </footer>
+  </body>
+</html>

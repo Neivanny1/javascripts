@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reef Hotel and Restaurant</title>
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="icon" href="../img/logo (1).png">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Reef Hotel</span> And Restaurant</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="videos.html">Chefs In Action</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+     
+      <div id="contain" class="container"> 
+        <div>
+          <h1> Welcome Reef Hotel
+            <svg height="120" width="120">
+            <defs>
+              <filter id="f1" x="0" y="0" width="200%" height="200%">
+                <feOffset result="offOut" in="SourceGraphic" dx="20" dy="20" />
+                <feBlend in="SourceGraphic" in2="offOut" mode="normal" />
+              </filter>
+            </defs>
+            <rect width="90" height="90" stroke="green" stroke-width="3"
+            fill="yellow" filter="url(#f1)" />
+          </svg></h1>
+
+        </div>
+         <div>
+          
+          <video autoplay loop  playsinline id="bg-video">
+            <source src="https://reefhotelkenya.com/reef.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          
+         </div>
+      </div>
+      <br>
+    </section>
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Website</h1>
+        <form>
+          <input type="email" placeholder="Enter Email..." required>
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="../img/logo_html1.png">
+          <h3>Watch a quick glance of our restaurant</h3>
+          <p> <a href="../html/about.html">Learn more about us</a>  </p>
+        </div>
+        <div class="box">
+          <img src="../img/chef (1).jpg">
+          <h3>Watch online cooking series</h3>
+          <p> <a href="../html/videos.html">Watch chef cooking sessions</a> </p>
+        </div>
+        <div class="box">
+          <img src="../img/logo_brush1.webp">
+          <h3>Reef ultimate</h3>
+          <p><a href="../html/menu.html">Check out food offered</a> </p>
+        </div>
+      </div>
+    </section>
+<img width="100%" height="500px" src="../img/cover1.jpg" alt="cover">
+    <footer>
+      <p>Reef Hotel and Restaurant&copy; 2023</p>
+    </footer>
+  </body>
+</html>

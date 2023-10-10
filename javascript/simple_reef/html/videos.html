@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reef Hotel</title>
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="icon" href="../img/logo (1).png">
+    <style>
+    #videos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #videos video {
+        margin-bottom: 10px;
+        width: calc(50% - 5px);
+        box-sizing: border-box;
+    }
+</style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Reef</span> Hotel</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="about.html">About</a></li>
+            <li class="current"><a href="videos.html">Chefs In Action</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>   
+     <h2>Welcome to kitchen vidoes home page</h2>
+
+    <br>
+    <div id="videos">
+        <video id="one" width="400" controls>
+            <source src="https://www.youtube.com/watch?v=_yGvd8k-gFs" type="video/mp4">
+            <source src="mov_bbb.ogg" type="video/ogg">
+            Your browser does not support HTML video.
+          </video>
+
+          <video id="two" width="400" controls>
+            <source src="https://youtu.be/gQz5NUNajow?si=uMzOhj5FYFbsg4E2" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+
+          <video id="three" width="400"controls>
+            <source src="https://www.youtube.com/watch?v=45rpaXqN9nE" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+
+          <video id="four" width="400" height="500px" controls>
+            <source src="../videos/y2mate.com - chef life  firecookingchef  whatsApp status follow me more videos in Instagram vikasrathour18_1080p.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+    </div>
+      <section id="newsletter">
+        <div class="container">
+          <h1 style="color:gray;">Kindly submit reviews or suggestions here</h1>
+          <form>
+            <input type="email" placeholder="Enter Email..." required>
+            <button type="submit" class="button_1">Subscribe</button>
+          </form>
+    
+        </div><p>Add comment here </p>
+    <textarea name="" id="" cols="100" rows="10">Add comments here....</textarea> <br>
+    <b>Add email to my special recipe emailing list</b> <input type="checkbox"> <br>
+    <button type="submit" class="button_1">Submit</button>
+      </section>
+      <footer>
+        <p>Reef Hotel, Copyright &copy; 2023</p>
+      </footer>
+</body>
+</html>
